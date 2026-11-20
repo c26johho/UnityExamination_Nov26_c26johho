@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-4020954742327260653
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_footstep_gravel_03_{-4020954742327260653}
+  m_AudioClip: {fileID: 8300000, guid: beeba668182b75346aea59a656b8bec6, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-3243599648560844204
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_footstep_gravel_04_{-3243599648560844204}
+  m_AudioClip: {fileID: 8300000, guid: d755b36196f6da749b6c47d17d389036, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-275880534754306353
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_footstep_gravel_01_{-275880534754306353}
+  m_AudioClip: {fileID: 8300000, guid: 5e1c0e7003c9bf246a0974b6226b8db5, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &753648867635305379
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_footstep_gravel_02_{753648867635305379}
+  m_AudioClip: {fileID: 8300000, guid: d9ae62fc59f3cca4eb3dd9257aea1397, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Footsteps
+  m_Volume: -26
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: -10.212765, y: 13.617022}
+  m_PitchRandomizationRange: {x: -102.12765, y: 153.19147}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: -275880534754306353}
+  - {fileID: 753648867635305379}
+  - {fileID: -4020954742327260653}
+  - {fileID: -3243599648560844204}
+  - {fileID: 7316430167749570313}
+  m_AvoidRepeatingLast: 0
+  m_PlaybackMode: 2
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 0
+  m_VolumeRandomizationEnabled: 1
+  m_PitchRandomizationEnabled: 1
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &7316430167749570313
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_footstep_gravel_05_{7316430167749570313}
+  m_AudioClip: {fileID: 8300000, guid: 3f27d30c0e398fb4aa6757c9a20129f0, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
